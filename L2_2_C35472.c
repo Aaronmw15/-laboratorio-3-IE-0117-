@@ -65,7 +65,7 @@ int celdas[3][100];//creamos una matriz donde la fila 0 corresponde al valor de 
             for (int indice=0;indice<contador_celdas;indice++){//recorremos la matriz celdas
                 if (celdas[tipo][indice]==diagonal){ //si encontramos un elemento con el numero de tipo que estamos buscando lo sumamos 
                     suma+=celdas[0][indice];
-                    printf("sumado \n");
+                    printf("%i agregado a la suma \n", celdas[0][indice]);
                 }
                 
 
